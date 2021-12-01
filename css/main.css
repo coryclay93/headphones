@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+@import "reset.css";
+@import "langin-page/header.css";
+@import "langin-page/top-jumbo.css";
+@import "langin-page/design-by.css";
+@import "langin-page/color-collection.css";
+@import "langin-page/blue-print.css";
+@import "langin-page/latest.css";
+@import "langin-page/footer.css";
+
+
+
+
+/*
+F28F38 orange
+615CF2 lightblue
+4945BF darkblue
+DEC9F2 lightpurple
+D556F0 purple
+D5E2EA LIGHT PLACEHOLDER
+*/
+
+.container{
+	max-width:1400px;
+	margin: 0 auto;
+	padding:0 20px;
+}
+
+.container-fluid{
+	margin: 0 5%;
+	padding:0 20px;
+}
+
+.box-shadow-down{
+	box-shadow: 0px 8px 40px 5px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 8px 40px 5px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 8px 40px 5px rgba(0,0,0,0.3);
+}
+
+.box-shadow-center{
+	box-shadow: 0px 0px 40px -10px rgba(210, 217, 217);
+	-webkit-box-shadow: 0px 0px 39px 7px rgba(210, 217, 217);
+	-moz-box-shadow: 0px 0px 40px -10px rgba(210, 217, 217);
+}
+
+input::placeholder{
+	color: #D5E2EA;
+}
+
+/*LAPTOP DEVICES */
+@media only screen and (max-width: 1215px) {
+  
+}
+/*TABLETS DEVICES */
+@media only screen and (max-width: 1023px) {
+  
+}
+
+/*MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+  
+}
